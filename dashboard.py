@@ -77,7 +77,7 @@ def get_geojson_layers():
 with tab1:
     st.title("🛫 AeroLogic – Air Traffic Control Dashboard")
 
-    OWM_API_KEY = "c58e3fc9881cec96c41a3ff8d5b83089"
+    OWM_API_KEY = "HERE"
 
     # === Load aircraft data ===
     @st.cache_data(ttl=30)
