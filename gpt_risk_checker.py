@@ -20,7 +20,7 @@ danger_indicators = [
 
 # Function to analyze transcript using GPT
 def analyze_risk_with_gpt(transcript):
-    api_key = ""
+    api_key = "HERE"
 
     prompt = f"""
 You are an aviation safety assistant. Based on the transcript below, identify whether any critical danger indicators are present.
